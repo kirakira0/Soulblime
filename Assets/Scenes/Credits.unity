@@ -239,7 +239,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 82896825}
+  - {fileID: 82896808}
   selectedCommands: []
   variables: []
   description: 
@@ -320,7 +320,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 70
-    y: 76
+    y: 75
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -710,7 +710,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 71
+    x: 72
     y: 206
     width: 120.4
     height: 40
@@ -765,7 +765,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Narration:I could see Mother again. \nNarration:"
+    stringVal: "Narration:I could see Mother again. \nNarration:She was ... different
+      from before. "
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -930,7 +931,7 @@ MonoBehaviour:
   duration: 3
   fadeOut: 1
   targetView: {fileID: 1995970477}
-  waitUntilFinished: 0
+  waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   targetCamera: {fileID: 0}
@@ -1470,7 +1471,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cd92f815a96f3af4b9e5ef08a99920df, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.49019608}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1488,8 +1489,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 761225321}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.49, y: -12.24, z: 0}
-  m_LocalScale: {x: 0.26259077, y: 0.26259077, z: 0.26259077}
+  m_LocalPosition: {x: 12.04, y: -12.05, z: 0}
+  m_LocalScale: {x: 0.67853457, y: 0.67853457, z: 0.67853457}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
@@ -2461,7 +2462,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1779988955}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.2, y: -12.13, z: 0}
+  m_LocalPosition: {x: 13.45, y: -12.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2659,10 +2660,10 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1995970476}
-  m_LocalRotation: {x: 0, y: 0, z: -0.06087441, w: 0.99814546}
-  m_LocalPosition: {x: 16.15, y: -12.13, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.24, y: -12.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -6.98}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
