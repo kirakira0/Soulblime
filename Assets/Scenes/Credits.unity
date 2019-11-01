@@ -239,7 +239,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 82896808}
+  - {fileID: 82896825}
   selectedCommands: []
   variables: []
   description: 
@@ -328,7 +328,7 @@ MonoBehaviour:
   itemId: 0
   blockName: Credits
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 82896828}
   commandList:
   - {fileID: 82896806}
   - {fileID: 82896805}
@@ -712,14 +712,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 72
     y: 206
-    width: 120.4
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 24
   blockName: Introduction
   description: 
-  eventHandler: {fileID: 82896828}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 82896826}
   - {fileID: 82896807}
@@ -781,7 +781,7 @@ MonoBehaviour:
     booleanVal: 1
 --- !u!114 &82896828
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -791,7 +791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentBlock: {fileID: 82896825}
+  parentBlock: {fileID: 82896808}
   waitForFrames: 1
 --- !u!114 &82896829
 MonoBehaviour:
@@ -1209,16 +1209,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 12800000, guid: 4b64292e9dd79164e831da0626b159ef,
         type: 3}
-    - target: {fileID: 579107984141654146, guid: b28b81770d4fdb44c9732365b878c890,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 12.264992
-      objectReference: {fileID: 0}
-    - target: {fileID: 579107984141654146, guid: b28b81770d4fdb44c9732365b878c890,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: -66.73
-      objectReference: {fileID: 0}
     - target: {fileID: 579107984141654144, guid: b28b81770d4fdb44c9732365b878c890,
         type: 3}
       propertyPath: m_Text
@@ -1229,6 +1219,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.a
       value: 0.8627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 579107984141654146, guid: b28b81770d4fdb44c9732365b878c890,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 12.264992
+      objectReference: {fileID: 0}
+    - target: {fileID: 579107984141654146, guid: b28b81770d4fdb44c9732365b878c890,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -66.73
       objectReference: {fileID: 0}
     - target: {fileID: 579107985286639911, guid: b28b81770d4fdb44c9732365b878c890,
         type: 3}
