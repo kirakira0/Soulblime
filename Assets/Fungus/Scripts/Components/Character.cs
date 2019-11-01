@@ -63,7 +63,14 @@ namespace Fungus
         /// <summary>
         /// Character name as displayed in Say Dialog.
         /// </summary>
-        public virtual string NameText { get { return nameText; } }
+        public virtual string NameText { get { 
+            if (nameText == "MC") {
+                return "WEPA"; 
+            }
+            else {
+                return nameText; 
+            }
+        } }
 
         /// <summary>
         /// Color to display the character name in Say Dialog.
