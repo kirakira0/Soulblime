@@ -209,6 +209,7 @@ GameObject:
   - component: {fileID: 82896837}
   - component: {fileID: 82896838}
   - component: {fileID: 82896828}
+  - component: {fileID: 82896839}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -241,9 +242,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 82896837}
-  selectedCommands:
-  - {fileID: 82896828}
+  - {fileID: 82896808}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -331,7 +331,7 @@ MonoBehaviour:
   itemId: 0
   blockName: Credits
   description: 
-  eventHandler: {fileID: 82896828}
+  eventHandler: {fileID: 82896839}
   commandList:
   - {fileID: 82896806}
   - {fileID: 82896805}
@@ -715,7 +715,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 73.09081
     y: 209.27243
-    width: 120
+    width: 123.08426
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -995,7 +995,7 @@ MonoBehaviour:
     booleanVal: 1
 --- !u!114 &82896837
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1007,8 +1007,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 539.616
-    y: 158.45406
+    x: 305.0918
+    y: 147.54594
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1021,7 +1021,7 @@ MonoBehaviour:
   - {fileID: 82896828}
 --- !u!114 &82896838
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1032,6 +1032,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 82896837}
+  waitForFrames: 1
+--- !u!114 &82896839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82896803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 82896808}
   waitForFrames: 1
 --- !u!1 &276664735
 GameObject:
