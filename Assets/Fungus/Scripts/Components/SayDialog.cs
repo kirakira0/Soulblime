@@ -9,6 +9,7 @@ using System.Collections.Generic;
 
 namespace Fungus
 {
+
     /// <summary>
     /// Display story text in a visual novel style dialog box.
     /// </summary>
@@ -377,6 +378,7 @@ namespace Fungus
                     // Use game object name as default
                     characterName = character.GetObjectName();
                 }
+               
                     
                 SetCharacterName(characterName, character.NameColor);
             }

@@ -267,6 +267,8 @@ GameObject:
   - component: {fileID: 82896850}
   - component: {fileID: 82896849}
   - component: {fileID: 82896839}
+  - component: {fileID: 82896852}
+  - component: {fileID: 82896851}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -298,8 +300,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 82896808}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -770,8 +771,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 66.54596
-    y: 159.09517
+    x: 67.63677
+    y: 158.00436
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -806,6 +807,8 @@ MonoBehaviour:
   - {fileID: 82896846}
   - {fileID: 82896850}
   - {fileID: 82896849}
+  - {fileID: 82896852}
+  - {fileID: 82896851}
 --- !u!114 &82896826
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1104,7 +1107,7 @@ MonoBehaviour:
   targetCamera: {fileID: 0}
 --- !u!114 &82896839
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1334,7 +1337,7 @@ MonoBehaviour:
   targetCamera: {fileID: 0}
 --- !u!114 &82896849
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1369,7 +1372,7 @@ MonoBehaviour:
     booleanVal: 1
 --- !u!114 &82896850
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1388,6 +1391,43 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   targetCamera: {fileID: 0}
+--- !u!114 &82896851
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82896803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 53
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: MainGameRoom
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &82896852
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82896803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 52
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
 --- !u!1 &276664735
 GameObject:
   m_ObjectHideFlags: 0
@@ -3696,7 +3736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: MC
+  nameText: '{$characterName}'
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
