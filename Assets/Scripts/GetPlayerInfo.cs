@@ -2,17 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI; 
-<<<<<<< HEAD
-
-public class GetPlayerInfo : MonoBehaviour
-{
-    public InputField inputField; 
-    // Start is called before the first frame update
-    void Start()
-    {
-        //inputField = this.GetComponent<InputField>(); 
-        inputField.characterLimit = 12; 
-=======
 using Fungus; 
 using UnityEngine.SceneManagement; 
 
@@ -34,16 +23,11 @@ public class GetPlayerInfo : MonoBehaviour
         inputField.characterLimit = 12;
         //inputField.CharacterValidation.name; 
         begin.onClick.AddListener(TaskOnClick); 
->>>>>>> origin/master
     }
 
     // Update is called once per frame
     void Update()
     {
-<<<<<<< HEAD
-        
-    }
-=======
         Debug.Log(flowchart.GetStringVariable("playerName")); 
         Debug.Log(flowchart.GetStringVariable("playerGender")); 
     }
@@ -69,5 +53,4 @@ public class GetPlayerInfo : MonoBehaviour
             Destroy(transform.gameObject.GetComponentInParent<Canvas>().gameObject); 
         }
 	}
->>>>>>> origin/master
 }
