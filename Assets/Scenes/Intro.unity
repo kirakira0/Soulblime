@@ -269,6 +269,7 @@ GameObject:
   - component: {fileID: 82896839}
   - component: {fileID: 82896852}
   - component: {fileID: 82896851}
+  - component: {fileID: 82896853}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -302,6 +303,10 @@ MonoBehaviour:
     height: 859
 <<<<<<< HEAD
   selectedBlocks:
+  - {fileID: 82896825}
+=======
+<<<<<<< HEAD
+  selectedBlocks:
 <<<<<<< HEAD
   - {fileID: 1939604476}
 =======
@@ -310,6 +315,7 @@ MonoBehaviour:
 =======
   selectedBlocks: []
 >>>>>>> 7a4db4c7dcb25ec52612ff593582bc3d050b1829
+>>>>>>> e3b3a454718cbf5ae3e4243341a5a13ee7dfa410
   selectedCommands: []
   variables: []
   description: 
@@ -816,6 +822,7 @@ MonoBehaviour:
   - {fileID: 82896846}
   - {fileID: 82896850}
   - {fileID: 82896849}
+  - {fileID: 82896853}
   - {fileID: 82896852}
   - {fileID: 82896851}
 --- !u!114 &82896826
@@ -973,9 +980,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'Narration:My gift is starting to feel less and less like a gift.
-
-      MC:yeet'
+    stringVal: Narration:My gift is starting to feel less and less like a gift.
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -1437,6 +1442,20 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 1
   durationOLD: 0
+--- !u!114 &82896853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82896803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bce3bd679be2c94196f3f6aaeb33f0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 54
+  indentLevel: 0
 --- !u!1 &276664735
 GameObject:
   m_ObjectHideFlags: 0
@@ -1649,11 +1668,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 579107984241734365, guid: b28b81770d4fdb44c9732365b878c890,
-        type: 3}
-      propertyPath: writingSpeed
-      value: 50
-      objectReference: {fileID: 0}
     - target: {fileID: 579107984241734366, guid: b28b81770d4fdb44c9732365b878c890,
         type: 3}
       propertyPath: m_Enabled
@@ -1670,17 +1684,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 12800000, guid: 4b64292e9dd79164e831da0626b159ef,
         type: 3}
-    - target: {fileID: 579107984141654144, guid: b28b81770d4fdb44c9732365b878c890,
-        type: 3}
-      propertyPath: m_Text
-      value: Here is some sample story text. This is where the character's dialogue
-        will be printed out.
-      objectReference: {fileID: 0}
-    - target: {fileID: 579107984141654144, guid: b28b81770d4fdb44c9732365b878c890,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 0.8627451
-      objectReference: {fileID: 0}
     - target: {fileID: 579107984141654146, guid: b28b81770d4fdb44c9732365b878c890,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1695,6 +1698,22 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 579107984241734365, guid: b28b81770d4fdb44c9732365b878c890,
+        type: 3}
+      propertyPath: writingSpeed
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 579107984141654144, guid: b28b81770d4fdb44c9732365b878c890,
+        type: 3}
+      propertyPath: m_Text
+      value: Here is some sample story text. This is where the character's dialogue
+        will be printed out.
+      objectReference: {fileID: 0}
+    - target: {fileID: 579107984141654144, guid: b28b81770d4fdb44c9732365b878c890,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0.8627451
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b28b81770d4fdb44c9732365b878c890, type: 3}
