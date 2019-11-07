@@ -13,7 +13,7 @@ public class TitleMenu : MonoBehaviour
 
     public void About()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("About");
     }
 
 
