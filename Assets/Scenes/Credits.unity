@@ -1259,11 +1259,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 579107984241734365, guid: b28b81770d4fdb44c9732365b878c890,
-        type: 3}
-      propertyPath: writingSpeed
-      value: 50
-      objectReference: {fileID: 0}
     - target: {fileID: 579107984241734366, guid: b28b81770d4fdb44c9732365b878c890,
         type: 3}
       propertyPath: m_Enabled
@@ -1280,17 +1275,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 12800000, guid: 4b64292e9dd79164e831da0626b159ef,
         type: 3}
-    - target: {fileID: 579107984141654144, guid: b28b81770d4fdb44c9732365b878c890,
-        type: 3}
-      propertyPath: m_Text
-      value: Here is some sample story text. This is where the character's dialogue
-        will be printed out.
-      objectReference: {fileID: 0}
-    - target: {fileID: 579107984141654144, guid: b28b81770d4fdb44c9732365b878c890,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 0.8627451
-      objectReference: {fileID: 0}
     - target: {fileID: 579107984141654146, guid: b28b81770d4fdb44c9732365b878c890,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1305,6 +1289,22 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 579107984241734365, guid: b28b81770d4fdb44c9732365b878c890,
+        type: 3}
+      propertyPath: writingSpeed
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 579107984141654144, guid: b28b81770d4fdb44c9732365b878c890,
+        type: 3}
+      propertyPath: m_Text
+      value: Here is some sample story text. This is where the character's dialogue
+        will be printed out.
+      objectReference: {fileID: 0}
+    - target: {fileID: 579107984141654144, guid: b28b81770d4fdb44c9732365b878c890,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0.8627451
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b28b81770d4fdb44c9732365b878c890, type: 3}
