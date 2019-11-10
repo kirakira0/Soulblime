@@ -258,11 +258,14 @@ GameObject:
   - component: {fileID: 81243276}
   - component: {fileID: 81243277}
   - component: {fileID: 81243278}
-  - component: {fileID: 81243279}
   - component: {fileID: 81243281}
   - component: {fileID: 81243280}
-  - component: {fileID: 81243283}
   - component: {fileID: 81243282}
+  - component: {fileID: 81243283}
+  - component: {fileID: 81243279}
+  - component: {fileID: 81243285}
+  - component: {fileID: 81243286}
+  - component: {fileID: 81243284}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -364,11 +367,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 240.13298, y: -405.4368}
+  scrollPos: {x: 180.47728, y: -517.1637}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
-  zoom: 0.6839992
+  blockViewHeight: 403
+  zoom: 0.7989976
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -484,8 +487,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 181.99013
-    y: 136.63434
+    x: 182.04001
+    y: 137.92801
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -538,8 +541,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 422.95496
-    y: 178.17305
+    x: 425.4425
+    y: 179.41684
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -772,9 +775,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 184.4005
-    y: 343.05804
-    width: 140.64339
+    x: 172.75746
+    y: 344.3517
+    width: 146.37076
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1083,7 +1086,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -175.5523
+    x: -178.13965
     y: 423.0022
     width: 120
     height: 40
@@ -1146,6 +1149,9 @@ MonoBehaviour:
   - {fileID: 81243274}
   - {fileID: 81243267}
   - {fileID: 81243266}
+  - {fileID: 81243286}
+  - {fileID: 81243284}
+  - {fileID: 81243285}
   - {fileID: 81243273}
   - {fileID: 81243271}
   - {fileID: 81243269}
@@ -1407,8 +1413,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 186.31567
-    y: 753.1007
+    x: 185.0641
+    y: 751.63873
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1434,7 +1440,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -42.746277
-    y: 698.46747
+    y: 697.0055
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1464,15 +1470,7 @@ MonoBehaviour:
     stringVal: "Thief:That sleeping boy in front of you ... he has a wallet in his
       jacket. Just saying.\r\nKid: Boring, boring, boring.\r\nThief:He\x19s asleep,
       he doesn\x19t even care if you take it.\r\nKid:Boring, boring, BORING!\r\nPoet:Quiet!
-      Don't you loathsome children have any respect?\r\nNarration:A crumpled up ball
-      of paper hits my head and lands on the floor by my foot. \r\nNarration:I open
-      it, and then wish I didn't. \r\nNarration:{i}Watch your back, schizo.{/i} \r\nNarration:I
-      hear snickering behind me. The Devil and his cohort, no doubt. \r\nMother:How
-      dare they! And after this morning's antics, too!\r\nKid:We should fight them.
-      \r\nMother:Hurt them.\r\nNarration:The Beast murmurs in agreement. \r\nKid:Give
-      them paper cuts ...\nThief:On their eyes. \r\nPoet:How poetic ...\r\nMC:Be quiet!\r\nNarration:Crap,
-      that was way too loud. \r\nTeacher:Oh, {$playerName}! Do you have anything to
-      add?\r\nMC:Uh ... "
+      Don't you loathsome children have any respect?\r"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -1732,9 +1730,8 @@ MonoBehaviour:
       lady. {$playerName} and I are only putting in a few drops. \r\nThief:It'll be
       horribly~ uncomfortable, but it won't kill him.\r\nNarration:The Kid laughs,
       and the Poet quotes from some flowery line about death by God knows who. \r\nNarration:I
-      pass Dad's room on the way out. \r\nMC:{b}Goodbye.{/b}\r\nNarration:The words
-      come out of my mouth, but they aren't mine.\nNarration:Father doesn't oblige
-      us with a response\r\nNarration:And Mother doesn't wait for one. \r\n"
+      pass Dad's room on the way out. \r\nMC:Goodbye. {b}\rEnjoy your coffee!{/b}\nNarration:The
+      words come out of my mouth, but they aren't mine.\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -1804,16 +1801,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 81243222}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 54
+  itemId: 62
   indentLevel: 0
-  duration: 0.5
-  targetAlpha: 1
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: 13d35398930ba904690e86978098218d, type: 3}
+  volume: 0.2
+  loop: 0
 --- !u!114 &81243280
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1845,7 +1840,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 55
   indentLevel: 0
-  duration: 3
+  duration: 3.5
   fadeOut: 1
   targetView: {fileID: 425400822}
   waitUntilFinished: 1
@@ -1875,14 +1870,89 @@ MonoBehaviour:
   m_GameObject: {fileID: 81243222}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 61
+  indentLevel: 0
+  duration: 0.5
+  fadeOut: 1
+  targetView: {fileID: 425400822}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+--- !u!114 &81243284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81243222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 59
+  itemId: 65
   indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 13d35398930ba904690e86978098218d, type: 3}
-  volume: 0.13
-  loop: 1
+  soundClip: {fileID: 8300000, guid: 73a6a31715c22084d824b1b4953ace65, type: 3}
+  volume: 0.8
+  loop: 0
+--- !u!114 &81243285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81243222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 63
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Narration:A crumpled up ball of paper hits my head and lands on the
+      floor by my foot. \r\nNarration:I open it, and then wish I didn't. \r\nNarration:{i}Watch
+      your back, schizo.{/i} \r\nNarration:I hear snickering behind me. The Devil
+      and his cohort, no doubt. \r\nMother:How dare they! And after this morning's
+      antics, too!\r\nKid:We should fight them. \r\nMother:Hurt them.\r\nNarration:The
+      Beast murmurs in agreement. \r\nKid:Give them paper cuts ...\nThief:On their
+      eyes. \r\nPoet:How poetic ...\r\nMC:Be quiet!\r\nNarration:Crap, that was way
+      too loud. \r\nTeacher:Oh, {$playerName}! Do you have anything to add?\r\nMC:Uh
+      ... "
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &81243286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81243222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 64
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 4f05c60ddcbdb8e408d9ea06c557590a, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!1 &207165330
 GameObject:
   m_ObjectHideFlags: 0
