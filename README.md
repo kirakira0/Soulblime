@@ -1,3 +1,3 @@
-# Sublime
+# Soulblime
 
 A sublime videogame
