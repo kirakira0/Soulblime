@@ -490,11 +490,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1407.5631, y: 185.82018}
+  scrollPos: {x: 221.15544, y: -718.4254}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 331
-  zoom: 0.29374614
+  zoom: 0.63474774
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -502,8 +502,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 81243225}
-  selectedCommands: []
+  - {fileID: 81243308}
+  selectedCommands:
+  - {fileID: 81243306}
   variables:
   - {fileID: 81243228}
   - {fileID: 81243224}
@@ -791,8 +792,8 @@ MonoBehaviour:
       over for a little? Teach him a little respect?\r\nMother:We ought to get to
       school. We're late already as it is. \r\nThief:I'll be quick. \r\nMother:I {i}said{/i},
       we don't have time for your stupid games. \r\nThief:You trying to start something,
-      hag? \r\nNarration:I can't deal with this so early in the morning. I'll guess
-      I'll let one of them handle it instead. \r\n"
+      hag? \r\nNarration:I can't deal with this so early in the morning. I guess I'll
+      let one of them handle it instead. \r\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -899,9 +900,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 174.24335
+    x: 176.10991
     y: 345.83762
-    width: 135.1075
+    width: 131.9223
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1248,7 +1249,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 186.19328
-    y: 597.99646
+    y: 601.14734
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1586,8 +1587,8 @@ MonoBehaviour:
   conversationText:
     stringRef: {fileID: 0}
     stringVal: "Thief:That sleeping boy in front of you ... he has a wallet in his
-      jacket. Just saying.\r\nKid: Boring, boring, boring.\r\nThief:He\x19s asleep,
-      he doesn\x19t even care if you take it.\r\nKid:Boring, boring, BORING!\r\nPoet:Quiet!
+      jacket. Just saying.\r\nKid: Boring, boring, boring.\r\nThief:He\x19's asleep,
+      he doesn'\x19t even care if you take it.\r\nKid:Boring, boring, BORING!\r\nPoet:Quiet!
       Don't you loathsome children have any respect?\r"
   clearPrevious:
     booleanRef: {fileID: 0}
@@ -2035,13 +2036,12 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: "Narration:A crumpled up ball of paper hits my head and lands on the
       floor by my foot. \r\nNarration:I open it, and then wish I didn't. \r\nNarration:{i}Watch
-      your back, schizo.{/i} \r\nNarration:I hear snickering behind me. The Devil
-      and his cohort, no doubt. \r\nMother:How dare they! And after this morning's
-      antics, too!\r\nKid:We should fight them. \r\nMother:Hurt them.\r\nNarration:The
-      Beast murmurs in agreement. \r\nKid:Give them paper cuts ...\nThief:On their
-      eyes. \r\nPoet:How poetic ...\r\nMC:Be quiet!\r\nNarration:Crap, that was way
-      too loud. \r\nTeacher:Oh, {$playerName}! Do you have anything to add?\r\nMC:Uh
-      ... "
+      your back, freak.{/i} \r\nNarration:I hear snickering behind me. The Devil and
+      his cohort, no doubt. \r\nMother:How dare they! And after this morning's antics,
+      too!\r\nKid:We should fight them. \r\nMother:Hurt them.\r\nNarration:The Beast
+      murmurs in agreement. \r\nKid:Give them paper cuts ...\nThief:On their eyes.
+      \r\nPoet:How poetic ...\r\nMC:Be quiet!\r\nNarration:Crap, that was way too
+      loud. \r\nTeacher:Oh, {$playerName}! Do you have anything to add?\r\nMC:Uh ... "
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -2480,18 +2480,18 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Narration:There was a scalpel on the ground, laying among some paper
+    stringVal: "Narration:There is a scalpel on the ground, lying among some paper
       scraps. \r\nNarration:Strange. The scalpels are usually kept in a locked cabinet
       ... \r\nMother:Seems dangerous to leave it here. \r\nMother:It might be a good
       idea to carry it around until you see your teacher again. Just in case.\r\nMother:In
-      any case, you really shouldn\x19t leave it lying around for anyone to grab.\r\nMC:I
-      don\x19t know ...  \r\nKid:It looks pointy and shiny. You should grab it.\r\nThief:I'm
+      any case, you really shouldn\x19't leave it lying around for anyone to grab.\r\nMC:I
+      don\x19't know ...  \r\nKid:It looks pointy and shiny. You should grab it.\r\nThief:I'm
       all for stealing, but {$playerName} is too weak to use it anyway. \r\nMother:Watch
       yourself. \r\nThief:It's true. \r\nMC:I'm not weak. \r\nThief:Oh yeah? Prove
-      me wrong, then. \r\nPoet:It would make for a useful tool. \r\nPoet:\x1CI must
-      create a system or be enslaved by another mans;\"\r\nPoet:\"I will not reason
-      and compare: my business is to create.\x1D \r\nPoet:Perhaps this scalpel shall
-      be the cornerstone of such creation.\r\nPoet:What do you think, {$playerName}?\r\nMC:I
+      me wrong, then. \r\nPoet:It would make for a useful tool. \r\nPoet:\x1C\"I must
+      create a system or be enslaved by another man's\"\r\nPoet:\"I will not reason
+      and compare: my business is to create\"\r\nPoet:Perhaps this scalpel shall be
+      the cornerstone of such creation.\r\nPoet:What do you think, {$playerName}?\r\nMC:I
       ... \r"
   clearPrevious:
     booleanRef: {fileID: 0}

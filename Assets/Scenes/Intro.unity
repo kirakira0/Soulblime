@@ -302,9 +302,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 82896808}
+  - {fileID: 82896825}
   selectedCommands:
-  - {fileID: 82896820}
+  - {fileID: 82896849}
   variables: []
   description: 
   stepPause: 0
@@ -775,8 +775,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 67.63677
-    y: 158.00436
-    width: 120
+    y: 159.09517
+    width: 123.08426
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -846,11 +846,11 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Narration:I could see Mother again. \nNarration:She was ... different
-      from before. \nNarration:She looked more or less the same, save for a few extra
-      eyes\nNarration:and the viscuous black substance that oozed from them constantly.\nNarration:But
+    stringVal: "Narration:I can see Mother again. \nNarration:She is ... different
+      from before. \nNarration:She looks more or less the same, save for a few extra
+      eyes\nNarration:and the viscuous black substance that oozes from them constantly.\nNarration:But
       the tone in her voice when she talks to me these days unnerves me. \nNarration:She
-      wasn't the only one. "
+      isn't the only one. "
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -1209,8 +1209,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Narration:I can't quite remember when the Theif appeared. \nNarration:She
-      has a honey-sweet tounge and a penchant for talking circles around me til I'm
+    stringVal: "Narration:I can't quite remember when the Thief appeared. \nNarration:She
+      has a honey-sweet tounge and a penchant for talking circles around me till I'm
       dizzy. \nNarration:She's cunninly cruel, so much so that I accept every statement
       she makes as a lie, just to be safe. \nNarration:The hands in her hair are always
       reaching. \nNarration:I think I hear them whispering, sometimes, when they reach
@@ -1357,7 +1357,7 @@ MonoBehaviour:
       seem to only draw them closer in. \r\nNarration:It's helpful sometimes. I've
       taken to letting them, uh \u2026 {i}handle{/i} situations that I'd rather not
       deal with. \r\nNarration:But at the same time, I have to be careful not to set
-      them free. \r\nNarration:It's a careful balance; an exhausting one to maintain.
+      them free. \r\nNarration:It's a careful balance; and an exhausting one to maintain.
       \r\nNarration:And every second I feel their weight on my shoulders, I wonder
       \u2026\r\nNarration:Can I keep it? \r"
   clearPrevious:
